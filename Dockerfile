@@ -58,9 +58,9 @@ RUN apt-get update \
  tzdata 
 
 #install git newest version
-RUN add-apt-repository ppa:git-core/ppa -y \
-    apt-get update \
-    apt-get upgrade \
+RUN add-apt-repository ppa:git-core/ppa; \
+    apt-get update; \
+    apt-get upgrade; \
     apt-get install git -y
 
 
