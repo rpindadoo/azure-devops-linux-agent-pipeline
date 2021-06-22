@@ -1,0 +1,1 @@
+docker build -t rpindadoo/azure-devops-linux-agent-pipeline:latest .
